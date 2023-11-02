@@ -12,8 +12,8 @@
     },
     {
       "name": "package-install",
-      "setup": "/venv/bin/python -m pip install -U pip",
-      "run": "/venv/bin/python -m pip install -e .",
+      "setup": "venv/bin/python -m pip install -U pip",
+      "run": "venv/bin/python -m pip install -e .",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "exercise-6-1",
       "setup": "",
-      "run": "pytest tests/test_exercise_6_1.py",
+      "run": "venv/bin/python -m pytest tests/test_exercise_6_1.py",
       "input": "",
       "output": "",
       "comparison": "included",
